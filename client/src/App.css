@@ -1,0 +1,455 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #004080;
+  color: white;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.search-bar input {
+  padding: 5px;
+}
+
+.hero {
+  position: relative;
+  height: 80vh;
+  background-image: url('image.jpg'); /* Add your image path */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin: 0.5em 0;
+}
+
+.hero-content p {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+
+.quick-search {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.quick-search input,
+.quick-search button {
+  margin: 0 5px;
+  padding: 10px;
+}
+
+.cta-buttons .btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-buttons .btn:hover {
+  background-color: #0059b3;
+}
+
+.chatbot {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.chatbot-btn {
+  padding: 10px 20px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.chatbot-btn:hover {
+  background-color: #0059b3;
+}
+
+.services-overview {
+  background-color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.services-overview h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.services-overview p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.icon-square {
+  background-color: #004080;
+  border-radius: 10px;
+  color: white;
+  font-size: 2em;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 auto 20px;
+  width: 80px;
+}
+
+.service-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.service-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-card li {
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.key-features {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.key-features h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.feature-blocks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature-block {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.feature-block:hover {
+  transform: scale(1.05);
+}
+
+.industries-served {
+  background-color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.industries-served h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.industries-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.industry {
+  margin: 20px;
+  text-align: center;
+}
+
+.industry img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.client-testimonials {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.client-testimonials h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.testimonials-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.testimonial img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.faq-container {
+  background-color: #004080;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.faq {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.faq h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-item {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.faq-question {
+  /* background-color: #f4f4f4; */
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  text-align: left;
+  font-size: 1.1em;
+}
+
+.faq-question:hover {
+  /* background-color: #e0e0e0; */
+}
+
+.faq-question.active {
+  background-color: #004080;
+  /* color: white; */
+}
+
+.faq-answer {
+  /* background-color: #f9f9f9; */
+  padding: 15px;
+  border-left: 3px solid #004080;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.faq-answer p {
+  margin: 0;
+  font-size: 1em;
+}
+
+.faq-question.active + .faq-answer {
+  display: block;
+}
+
+/* Footer */
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.quick-links,
+.social-media,
+.newsletter,
+.copyright {
+  flex: 1;
+}
+
+.quick-links a,
+.social-media a {
+  color: #333;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-media a svg {
+  font-size: 20px;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter form {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.newsletter button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copyright p {
+  color: #999;
+  padding: 5;
+  margin: 5;
+}
+
+.faq-section {
+  width: 100%;
+  padding: 40px 20px; /* Adjusted padding for better spacing */
+  background-color: #f4f4f4;
+  color: #ffffff;
+  text-align: center; /* Center align content */
+  display: center;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.question {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4; /* Match background color */
+  text-align: center;
+}
+
+.question h3 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #000; /* White text color */
+}
+
+.toggle-icon {
+  width: 20px;
+  height: 20px;
+  /* background-image: url('path_to_your_toggle_icon.png'); */
+  background-size: cover;
+  transition: transform 0.3s ease;
+}
+
+.toggle-icon.open {
+  transform: rotate(180deg);
+}
+
+.answer {
+  padding: 10px 20px;
+  display: none;
+  background-color: #f4f4f4; /* White background color for answers */
+}
+
+.answer p {
+  margin: 0;
+  font-size: 1.1em;
+  color: #333333; /* Darker text color for answers */
+}
+
+.answer.active {
+  display: block;
+}
+
+.faq-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #000;
+}
