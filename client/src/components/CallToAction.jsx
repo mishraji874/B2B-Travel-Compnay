@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
-// import './FAQ.css';
 
 const FAQ = () => {
-    // State to manage which question is currently expanded
     const [expandedIndex, setExpandedIndex] = useState(null);
 
-    // FAQ data with questions and answers
     const faqData = [
         {
             question: "How do I book flights for my business?",
@@ -29,12 +26,11 @@ const FAQ = () => {
         }
     ];
 
-    // Function to toggle the answer visibility
     const toggleAnswer = (index) => {
         if (expandedIndex === index) {
-            setExpandedIndex(null); // Collapse the answer if already expanded
+            setExpandedIndex(null);
         } else {
-            setExpandedIndex(index); // Expand the answer
+            setExpandedIndex(index);
         }
     };
 

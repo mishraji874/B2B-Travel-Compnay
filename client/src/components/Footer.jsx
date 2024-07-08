@@ -17,7 +17,7 @@ const Footer = () => {
                 <div className="quick-links">
                     {/* Add your quick links here */}
                     <a href="/">Home</a>
-                    <a href="#">About Us</a>
+                    <a href="/about">About Us</a>
                     <a href="/contact">Contact</a>
                     {/* Add more links as needed */}
                 </div>
