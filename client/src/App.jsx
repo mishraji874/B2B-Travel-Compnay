@@ -1,25 +1,25 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import ServicesOverview from './components/ServicesOverview';
-import KeyFeatures from './components/KeyFeatures';
-import IndustriesServed from './components/IndustriesServed';
-import ClientTestimonials from './components/ClientTestimonials';
-import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
+import Home from './components/Home';
+import Login from './components/Login';
+import Signup from './components/Signup';
+import Contact from './components/Contact';
+import './App.css';
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="app">
         <Header />
-        <HeroSection />
-        <ServicesOverview />
-        <KeyFeatures />
-        <IndustriesServed />
-        <ClientTestimonials />
-        <CallToAction />
+        {/* <Home /> */}
+        <Routes>
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
         <Footer />
       </div>
     </Router>
