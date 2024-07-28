@@ -9,6 +9,11 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Resources from './components/Resources';
 import Services from "./components/Services";
+import Flights from "./components/Flights";
+import Trains from "./components/Trains";
+import Buses from "./components/Buses";
+import Hotels from "./components/Hotels";
+import Cabs from "./components/Cabs";
 import './App.css';
 
 function App() {
@@ -25,6 +30,11 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/services/flights" element={<Flights />} />
+          <Route path="/services/trains" element={<Trains />} />
+          <Route path="/services/buses" element={<Buses />} />
+          <Route path="/services/hotels" element={<Hotels />} />
+          <Route path="/services/cabs" element={<Cabs />} />
         </Routes>
         <Footer />
       </div>

@@ -805,3 +805,74 @@ button:hover {
   color: #555;
   margin-bottom: 1rem;
 }
+
+/*BookingForm.jsx*/
+
+.booking-page {
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.flights-background {
+  background-image: url('https://assets.gqindia.com/photos/6540e2ba4622f7146b12b76b/16:9/w_2560%2Cc_limit/best-time-to-book-flights.jpg');
+}
+
+.trains-background {
+  background-image: url('https://www.alstom.com/sites/alstom.com/files/styles/large_media_cover/public/2022/04/05/SJ250_Sunset_High_Speed_Sweden.jpg?h=06ac0d8c&itok=vVjmm6oN');
+}
+
+.buses-background {
+  background-image: url('https://t4.ftcdn.net/jpg/06/67/56/53/360_F_667565388_5jyKNCXSA2CtHLJ81GOQeXn1JxPG0zfD.jpg');
+}
+
+.cabs-background {
+  background-image: url('https://stimg2.cardekho.com/images/roadTestimages/userimages/909/1721986489389/GeneralRoadTest.jpg?tr=w-360?tr=w-320');
+}
+
+.hotels-background {
+  background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/21/20/c9/facadenight.jpg?w=1200&h=-1&s=1');
+}
+
+.booking-form {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.booking-form h2 {
+  margin-bottom: 20px;
+}
+
+.booking-form div {
+  margin-bottom: 10px;
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.booking-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #004080;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.booking-form button:hover {
+  background-color: #004080;
+}

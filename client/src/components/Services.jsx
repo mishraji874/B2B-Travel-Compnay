@@ -9,7 +9,7 @@ const Services = () => {
             </header>
             <div className="service-details">
                 <section>
-                    <h2>Flights</h2>
+                    <h2><a href='/services/flights'>Flights</a></h2>
                     <p>
                         Book and manage corporate flights with ease. Our flight booking services include both domestic and international travel arrangements to ensure your business trips are seamless and stress-free.
                     </p>
@@ -19,25 +19,25 @@ const Services = () => {
                     </ul>
                 </section>
                 <section>
-                    <h2>Trains</h2>
+                    <h2><a href='/services/trains'>Trains</a></h2>
                     <p>
                         Reliable train bookings for your business travel. Our comprehensive train booking services ensure timely and comfortable travel for your corporate needs.
                     </p>
                 </section>
                 <section>
-                    <h2>Buses</h2>
+                    <h2><a href='/services/buses'>Buses</a></h2>
                     <p>
                         Convenient and flexible bus services to meet your business travel requirements. We offer a range of bus services to ensure comfortable and efficient travel.
                     </p>
                 </section>
                 <section>
-                    <h2>Cabs</h2>
+                    <h2><a href='/services/cabs'>Cabs</a></h2>
                     <p>
                         On-demand cab services for your convenience. Our cab booking services provide quick and reliable transportation for your business needs.
                     </p>
                 </section>
                 <section>
-                    <h2>Hotels</h2>
+                    <h2><a href='/services/hotels'>Hotels</a></h2>
                     <p>
                         Find and book the best accommodations for your business travel. We offer a wide selection of hotels to suit your preferences and budget.
                     </p>
