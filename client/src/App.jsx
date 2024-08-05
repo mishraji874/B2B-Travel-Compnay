@@ -14,7 +14,10 @@ import Trains from "./components/Trains";
 import Buses from "./components/Buses";
 import Hotels from "./components/Hotels";
 import Cabs from "./components/Cabs";
+import Dashboard from "./components/Dashboard";
 import './App.css';
+import ProfileSettings from './components/ProfileSettings';
+import Bookings from './components/Bookings';
 
 function App() {
   return (
@@ -25,6 +28,7 @@ function App() {
         <Routes>
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
@@ -35,6 +39,8 @@ function App() {
           <Route path="/services/buses" element={<Buses />} />
           <Route path="/services/hotels" element={<Hotels />} />
           <Route path="/services/cabs" element={<Cabs />} />
+          <Route path="/bookings" element={<Bookings />} />
+          <Route path="/profile-settings" element={<ProfileSettings />} />
         </Routes>
         <Footer />
       </div>

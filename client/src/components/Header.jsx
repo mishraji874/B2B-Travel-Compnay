@@ -1,7 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Header = () => {
+    const navigate = useNavigate();
+
+    const handleUserIconClick = () => {
+        navigate('/dashboard');
+    };
+
     return (
         <header className="header">
             <div className="logo">

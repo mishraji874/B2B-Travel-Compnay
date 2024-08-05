@@ -1,6 +1,13 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
+    const navigate = useNavigate();
+
+    const goToServices = () => {
+        navigate('/services');
+    };
+
     return (
         <section className="hero">
             <div className="hero-background">
@@ -13,11 +20,11 @@ const HeroSection = () => {
                     <input type="text" placeholder="From" />
                     <input type="text" placeholder="To" />
                     <input type="date" />
-                    <button>Search</button>
+                    <button onClick={goToServices}>Search</button>
                 </div>
                 <div className="cta-buttons">
-                    <button className="btn">Explore Services</button>
-                    <button className="btn">Get Started</button>
+                    <button className="btn" onClick={goToServices}>Explore Services</button>
+                    <button className="btn" onClick={() => window.scrollTo({ top: 1000, behavior: "smooth" })}>Get Started</button>
                 </div>
             </div>
             <div className="chatbot">

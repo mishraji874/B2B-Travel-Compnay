@@ -1,4 +1,3 @@
-// routes/flights.js
 const express = require('express');
 const axios = require('axios');
 const db = require('../server');
