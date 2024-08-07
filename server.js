@@ -3,7 +3,6 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const admin = require('firebase-admin');
 const path = require('path');
-//const serviceAccount = require('./path/to/your/serviceAccountKey.json'); // Update with your Firebase Admin SDK JSON file path
 
 const flightsRoute = require('./routes/flights');
 const trainsRoute = require('./routes/trains');
@@ -31,9 +30,6 @@ app.use('/api/buses', busesRoute);
 app.use('/api/hotels', hotelsRoute);
 app.use('/api/cabs', cabsRoute);
 
-app.get('/', (req, res) => {
-    
-});
 
 app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);

@@ -30,6 +30,7 @@ const BookingForm = ({ service }) => {
                     type="text"
                     id="startingPoint"
                     name="startingPoint"
+                    placeholder='Starting Point'
                     value={formData.startingPoint}
                     onChange={handleChange}
                 />
@@ -40,6 +41,7 @@ const BookingForm = ({ service }) => {
                     type="text"
                     id="destination"
                     name="destination"
+                    placeholder='Destination'
                     value={formData.destination}
                     onChange={handleChange}
                 />
