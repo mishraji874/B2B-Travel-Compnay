@@ -1060,3 +1060,386 @@ button:hover {
   width: 300px;
   text-align: center;
 }
+
+/*FlightSearch.jsx */
+.flight-booking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flight-booking-form {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.flight-booking-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.flight-booking-form div {
+  margin-bottom: 15px;
+}
+
+.flight-booking-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.flight-booking-form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.flight-booking-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.flight-booking-form button:hover {
+  background-color: #0056b3;
+}
+
+.flight-results {
+  width: 100%;
+}
+
+.flight-result-card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.flight-result-card h3 {
+  margin-bottom: 10px;
+}
+
+.flight-result-card p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.no-flights {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  margin-top: 20px;
+}
+
+/* TrainSearch.jsx */
+.train-booking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.train-booking-form {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.train-booking-form h2 {
+  margin-bottom: 20px;
+}
+
+.train-booking-form div {
+  margin-bottom: 15px;
+}
+
+.train-booking-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.train-booking-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.train-booking-form button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.train-booking-form button:hover {
+  background: #0056b3;
+}
+
+.train-results {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.train-result-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.no-trains {
+  color: #888;
+}
+
+/* BusesSearch.jsx */
+.bus-booking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bus-booking-form {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.bus-booking-form h2 {
+  margin-bottom: 20px;
+}
+
+.bus-booking-form div {
+  margin-bottom: 15px;
+}
+
+.bus-booking-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bus-booking-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.bus-booking-form button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bus-booking-form button:hover {
+  background: #0056b3;
+}
+
+.bus-results {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.bus-result-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: start;
+  box-sizing: border-box;
+}
+
+.no-buses {
+  color: #888;
+}
+
+/* HotelsSearch.jsx */
+.hotel-booking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-booking-form {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.hotel-booking-form h2 {
+  margin-bottom: 20px;
+}
+
+.hotel-booking-form div {
+  margin-bottom: 15px;
+}
+
+.hotel-booking-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.hotel-booking-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.hotel-booking-form button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hotel-booking-form button:hover {
+  background: #0056b3;
+}
+
+.hotel-results {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.hotel-result-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.no-hotels {
+  color: #888;
+}
+
+/* CabsSearch.jsx */
+.cab-booking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cab-booking-form {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.cab-booking-form h2 {
+  margin-bottom: 20px;
+}
+
+.cab-booking-form div {
+  margin-bottom: 15px;
+}
+
+.cab-booking-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.cab-booking-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cab-booking-form button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cab-booking-form button:hover {
+  background: #0056b3;
+}
+
+.cab-results {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.cab-result-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.no-cabs {
+  color: #888;
+}

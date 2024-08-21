@@ -1,10 +1,10 @@
 import React from 'react';
-import BookingForm from '../components/BookingForm';
+import CabsSearch from '../components/CabsSearch';
 
 const CabsBooking = () => {
     return (
         <div className="booking-page cabs-background">
-            <BookingForm service="Cabs" />
+            <CabsSearch service="Cabs" />
         </div>
     );
 };

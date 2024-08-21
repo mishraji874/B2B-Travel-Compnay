@@ -1,10 +1,10 @@
 import React from 'react';
-import BookingForm from '../components/BookingForm';
+import HotelsSearch from '../components/HotelsSearch';
 
 const HotelsBooking = () => {
     return (
         <div className="booking-page hotels-background">
-            <BookingForm service="Hotels" />
+            <HotelsSearch service="Hotels" />
         </div>
     );
 };
