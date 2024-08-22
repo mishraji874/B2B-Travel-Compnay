@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import './CabBookingForm.css';
 
 const CabBookingForm = () => {
     const [formData, setFormData] = useState({

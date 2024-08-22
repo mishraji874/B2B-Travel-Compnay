@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import './HotelBookingForm.css';
 
 const HotelBookingForm = () => {
     const [formData, setFormData] = useState({
